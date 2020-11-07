@@ -1,4 +1,7 @@
 # Run Unreal Tournament 99 windows files on linux
+Quite totally taken from https://github.com/zedr/docker-unreal-tournament-99
+Just reshaped to be used with docker-compose
+Thanks a lot, I've been stuck a moment on the server configuration
 
 ## Install docker and docker compose for ubuntu
 
