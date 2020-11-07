@@ -1,0 +1,24 @@
+version: '3.7'
+services:
+
+  ut99_server:
+    build:
+      context: ./
+      dockerfile: dockerfiles/wine_ut99_server_dockerfile
+    image: img_wine_ut99_server
+    container_name: cont_wine_ut99_server
+    ports:
+      - 7777-7781:7777-7781/udp
+      - 27900:27900/udp 
+
+  ut99:
+    build:
+      context: ./
+      dockerfile: dockerfiles/wine_ut99_dockerfile
+    image: img_wine_ut99
+    container_name: cont_wine_ut99
+    volumes:
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - /media/millet/Backup Windows/2017_09_17 Archives/Jeux/Jeux reseaux (7Go)/UnrealTournament:/mnt/ut99
+    environment:
+      - "DISPLAY=unix:0.0"
