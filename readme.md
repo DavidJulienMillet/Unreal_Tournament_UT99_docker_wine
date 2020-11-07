@@ -52,7 +52,7 @@ Before, give access to graphical interface
 ``` xhost +"local:docker@" ``` 
 
 Then, change the docker-compose.yml file to set the path of your UT folder. Change the volume line in the ut99 service. \
-Mine is "/media/millet/Backup Windows/2017_09_17 Archives/Jeux/Jeux reseaux (7Go)/UnrealTournament", which is the same folder on an usb key than the one used on windows. It works tolally and is useful to keep saved progression.
+Mine is "/media/millet/Backup Windows/2017_09_17 Archives/Jeux/Jeux reseaux (7Go)/UnrealTournament", which is the same folder on an usb key than the one used on windows. It works totally and is useful to keep saved progression.
 
 Run game, launch servers and containers
 
