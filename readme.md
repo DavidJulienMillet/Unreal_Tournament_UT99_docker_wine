@@ -73,7 +73,7 @@ Sound problem - not solved yet
 
 
 ```
-IBM
+Wine_ut99
 |-- readme.md
 |-- docker-compose.yml
 |-- dockerfiles
