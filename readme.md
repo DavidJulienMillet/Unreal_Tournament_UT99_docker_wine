@@ -42,7 +42,7 @@ Install docker compose
 
 ``` sudo chmod +x /usr/local/bin/docker-compose```
 
-## Commands to launch program
+## Commands to launch the program
 
 Before, give access to graphical interface
 
